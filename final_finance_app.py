@@ -8,7 +8,7 @@ st.set_page_config(page_title="Finance App", page_icon=":bar_chart:", layout="wi
 
 # Custom colored header
 st.markdown("<h1 style='text-align: center; color: #4CAF50;'>📊 Interactive Finance App</h1>", unsafe_allow_html=True)
-st.caption("<div style='text-align: center;'>Made by Harsh Shah</div>", unsafe_allow_html=True)
+
 st.markdown("---")
 
 # Live USD to INR exchange rate fetching
