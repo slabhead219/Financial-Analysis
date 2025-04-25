@@ -45,7 +45,7 @@ page =st.sidebar.selectbox(("Navigation"
     "📉 Inflation",
     "💵 Bonds",
     "📊 ROIC"
-] horizontal=True)
+] )
 
 # Pages logic
 if page == "🏠 Home":
