@@ -34,9 +34,9 @@ def format_currency(value):
 
 # Sidebar navigation
 st.sidebar.title("🧭 Navigation")
-page = st.sidebar.selectbox("Select a topic", [
+page = st.sidebar.selectbox("Select a topic", ["🏠 Home",
     "🧮 Valuation",
-    "🏠 Home",
+    
     "📈 Beta & SML",
     "🔀 Put-Call Parity",
     "📉 Risk Aversion",
