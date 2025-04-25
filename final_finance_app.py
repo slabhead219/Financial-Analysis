@@ -7,7 +7,7 @@ import requests
 st.set_page_config(page_title="Finance App", page_icon=":bar_chart:", layout="wide")
 
 # Custom colored header
-st.markdown("<h1 style='text-align: center; color: #4CAF50;'>📊 Interactive Finance App</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #EE4B2B;'>📊 Financial Analysis </h1>", unsafe_allow_html=True)
 
 st.markdown("---")
 
