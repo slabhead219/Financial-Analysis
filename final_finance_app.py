@@ -34,7 +34,8 @@ def format_currency(value):
 
 # Sidebar navigation
 st.sidebar.title("🧭 Navigation")
-page = st.sidebar.selectbox("Select a topic", ["🏠 Home",
+page = selected = st.radio("Navigation"
+, ["🏠 Home",
     "🧮 Valuation",
     
     "📈 Beta & SML",
@@ -44,7 +45,7 @@ page = st.sidebar.selectbox("Select a topic", ["🏠 Home",
     "📉 Inflation",
     "💵 Bonds",
     "📊 ROIC"
-])
+] horizontal=True)
 
 # Pages logic
 if page == "🏠 Home":
